@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAS LAB CANDRA NABABAN</title>
+    <link rel=" stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="search-box">
+            <i class='bx bxs-map'></i>
+            <input type="text" placeholder="Enter Your Location">
+            <button class="bx bx-search"></button>
+        </div>
+
+        <button id="go-to-ask">GO TO ASK</button>
+
+        <div class="link-selection">
+          <select id="link-select">
+
+            <option value="https://candra-beta.vercel.app/">TUGAS 1</option>
+            <option value="https://vercel.com/candranababans-projects/candra-pbk_tugas.2">TUGAS 2</option>
+            <option value="https://praktikum-candra-pbk-tugas3.vercel.app/">TUGAS 3</option>
+            <option value="https://praktikum-pbk-tugas4-gilt.vercel.app/">TUGAS 4</option>
+            <option value="https://praktikum-pbk-tugas5.vercel.app/">TUGAS 5</option>
+            <option value="https://praktikum-pbk-tugas6-two.vercel.app/">TUGAS 6</option>
+          </select>
+        </div>
+
+        <div class="weather-box">
+          <div class="box">
+            <div class="info-weather">
+              <div class="weather">
+                <img src="images/cloud.png">
+                <p class="temperature">0<span>°C</span></p>
+                <p class="description">Broken Clouds</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="weather-details">
+          <div class="humidity">
+            <i class='bx bx-water'></i>
+            <div class="text">
+              <div class="info-humidity">
+                <span>0%</span>
+              </div>
+              <p>Humadity</p>
+            </div>
+          </div>
+
+          <div class="wind">
+            <i class='bx bx-wind'></i>
+            <div class="text">
+              <div class="info-wind">
+                <span>0Km/h</span>
+              </div>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="not-found">
+            <div class =box>
+                <img src ="images/404.png">
+                <p> Oops! Lokasi Tidak Ditemukan!</p>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/src/script.js"></script>
+  </body>
+</html>
